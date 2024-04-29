@@ -13,6 +13,7 @@ Este plugin reemplaza de una manera menos pesada, las páginas de WordPress sin 
 1. Descarga el archivo ZIP.
 2. Descomprime el archivo ZIP en el directorio `/wp-content/plugins/` de tu instalación de WordPress.
 3. Activa el plugin a través del menú 'Plugins' en WordPress.
+4. Ajusta tu página en "Modos de mantenimiento" dentro del panel de administración.
 
 ## Contribuir
 
