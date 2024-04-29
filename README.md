@@ -1,25 +1,18 @@
-# Adhoc Coming Soon
 
 ![Logo del Plugin](https://www.agenciaadhoc.com/wp-content/uploads/2018/11/logo-adhoc-negro-azul.svg)
 
+# Adhoc Coming Soon
+
 ## Descripción
 
-Breve descripción del plugin, explicando qué hace y por qué es útil. Puedes incluir capturas de pantalla o demostraciones aquí si lo deseas.
+Este plugin reemplaza de una manera menos pesada, las páginas de WordPress sin necesidad de redirecciones en caso de página de pre-bienvenida o modo de mantenimiento.
 
-## Características
-
-- Lista de características principales del plugin.
-- Puedes enumerar las funciones y capacidades clave aquí.
 
 ## Instalación
 
-1. Descarga el archivo ZIP desde [aquí](enlace-al-archivo-zip).
+1. Descarga el archivo ZIP.
 2. Descomprime el archivo ZIP en el directorio `/wp-content/plugins/` de tu instalación de WordPress.
 3. Activa el plugin a través del menú 'Plugins' en WordPress.
-
-## Uso
-
-Explica cómo utilizar el plugin y proporciona ejemplos si es necesario. Si el plugin tiene configuraciones, explícalas aquí.
 
 ## Contribuir
 
@@ -31,10 +24,10 @@ Si encuentras algún problema o tienes alguna pregunta, por favor abre un issue 
 
 ## Licencia
 
-Este proyecto está licenciado bajo [Nombre de la Licencia](enlace-a-la-licencia). Consulta el archivo [LICENSE.md](enlace-al-archivo-licence.md) para más detalles.
+Este proyecto está licenciado bajo MIT.
 
 ## Autor
 
-- Nombre del Autor
-- Enlace al sitio web o perfil en GitHub
+- Javier Díaz
+- Desarrollado para www.agenciaadhoc.com
 
