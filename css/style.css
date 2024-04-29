@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --blanco: #fff;
+    --azul: #268dc2;
+    --titulos: 'Poppins', sans-serif;
+    --parrafos: 'Sourcesanspro', sans-serif;
+}
+
+@font-face {
+    font-family: 'geomanistbold';
+    src:  url('../fonts/geomanist-bold-webfont.eot');
+    src:  url('../fonts/geomanist-bold-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/geomanist-bold-webfont.woff2') format('woff2'),
+          url('../fonts/geomanist-bold-webfont.woff') format('woff'),
+          url('../fonts/geomanist-bold-webfont.ttf') format('truetype'),
+          url('../fonts/geomanist-bold-webfont.svg#geomanistbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+      font-family: 'geomanistlight';
+      src: url('../fonts/geomanist-light-webfont.eot');
+      src: url('../fonts/geomanist-light-webfont.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/geomanist-light-webfont.woff2') format('woff2'),
+           url('../fonts/geomanist-light-webfont.woff') format('woff'),
+           url('../fonts/geomanist-light-webfont.ttf') format('truetype'),
+           url('../fonts/geomanist-light-webfont.svg#geomanistlight') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  h1{
+      font-family: 'geomanistbold' !important;
+      font-size: 35px !important;
+      margin-bottom: 10px !important;
+      margin-top: 0px !important;
+  }
+
+p{
+    font-size: 16px ;
+    line-height: 22px !important;
+    font-family: var(--parrafos) !important;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.maintenance{
+    background-size: cover !important;
+    background-position: top center;
+    background-color: var(--blanco);
+}
+
+.grid-adhoc{
+    display: grid;
+    margin: auto;
+    width: 500px
+}
+
+.logo{
+    position: absolute;
+    width: fit-content;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 30px;
+}
+
+.logo img{
+    width: 145px;
+}
+
+.adhoc-contenido{
+    background: rgba( 255, 255, 255, 0.75 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;    
+    padding: 40px !important;
+    position: relative;
+    top: -80px !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.maintenance .adhoc-contenido{
+    padding-bottom: 80px !important;
+}
+
+.adhoc-figura a{
+    background-color: var(--azul) !important;
+    color: var(--blanco);
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-left: 7px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.adhoc-figura a:hover{
+    color: var(--azul) !important;
+    background-color: var(--blanco) !important;
+
+}
+
+.texto-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.maintenance .adhoc-contenido{
+    top: 0px !important;
+}
+@media only screen and (max-width: 767px){
+ 
+    .grid-adhoc{
+        width: 300px !important;
+    }
+    .adhoc-contenido {
+        background: rgba(255, 255, 255, 0.75);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border-radius: 10px;
+        padding: 40px !important;
+    }
+
+    h1{
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    lord-icon{
+        width: 100px !important;
+    }
+    h1{
+        font-size: 25px !important;
+    }
+    .grid-adhoc{
+        width: 90% !important;
+    }
+    .adhoc-contenido {
+        background: rgba(255, 255, 255, 0.75);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border-radius: 10px;
+        padding: 20px !important;
+        padding-bottom: 60px !important;
+    }
+}
