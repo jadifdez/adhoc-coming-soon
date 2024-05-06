@@ -7,7 +7,7 @@
     <title><?php bloginfo('name'); ?> - Mantenimiento activo</title>
     <?php wp_head(); ?>
 </head>
-<body>
+<body class="adhoc-coming-soon">
     
     <main class="maintenance" style="background-image: url(<?php  echo plugin_dir_url( __FILE__ ) . 'img/maintenance.jpg';?>);">
         <div class="grid-adhoc">

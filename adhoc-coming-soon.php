@@ -2,7 +2,7 @@
 /*
 Plugin Name: ADHOC - Modo Próximamente / Modo mantenimiento
 Description: Dirige a los visitantes a una página de mantenimiento.
-Version: 1.0
+Version: 1.0.1
 Author: Agencia Adhoc
 Author URI: www.agenciaadhoc.com
 */

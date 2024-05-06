@@ -7,7 +7,7 @@
     <title><?php bloginfo('name'); ?> - Próximamente</title>
     <?php wp_head(); ?>
 </head>
-<body>
+<body class="adhoc-coming-soon">
     <main style="background-image: url(<?php  echo plugin_dir_url( __FILE__ ) . 'img/fondo-slide-scaled.webp';?>);">
         <div class="grid-adhoc">
             <div class="adhoc-contenido">

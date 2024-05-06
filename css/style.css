@@ -1,9 +1,9 @@
-*{
+.adhoc-coming-soon {
     padding: 0px;
     margin: 0px;
 }
 
-:root{
+:root {
     --blanco: #fff;
     --azul: #268dc2;
     --titulos: 'Poppins', sans-serif;
@@ -12,42 +12,34 @@
 
 @font-face {
     font-family: 'geomanistbold';
-    src:  url('../fonts/geomanist-bold-webfont.eot');
-    src:  url('../fonts/geomanist-bold-webfont.eot?#iefix') format('embedded-opentype'),
-          url('../fonts/geomanist-bold-webfont.woff2') format('woff2'),
-          url('../fonts/geomanist-bold-webfont.woff') format('woff'),
-          url('../fonts/geomanist-bold-webfont.ttf') format('truetype'),
-          url('../fonts/geomanist-bold-webfont.svg#geomanistbold') format('svg');
+    src: url('../fonts/geomanist-bold-webfont.eot');
+    src: url('../fonts/geomanist-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/geomanist-bold-webfont.woff2') format('woff2'), url('../fonts/geomanist-bold-webfont.woff') format('woff'), url('../fonts/geomanist-bold-webfont.ttf') format('truetype'), url('../fonts/geomanist-bold-webfont.svg#geomanistbold') format('svg');
     font-weight: normal;
     font-style: normal;
-  }
-  
-  @font-face {
-      font-family: 'geomanistlight';
-      src: url('../fonts/geomanist-light-webfont.eot');
-      src: url('../fonts/geomanist-light-webfont.eot?#iefix') format('embedded-opentype'),
-           url('../fonts/geomanist-light-webfont.woff2') format('woff2'),
-           url('../fonts/geomanist-light-webfont.woff') format('woff'),
-           url('../fonts/geomanist-light-webfont.ttf') format('truetype'),
-           url('../fonts/geomanist-light-webfont.svg#geomanistlight') format('svg');
-      font-weight: normal;
-      font-style: normal;
-  }
-  
-  h1{
-      font-family: 'geomanistbold' !important;
-      font-size: 35px !important;
-      margin-bottom: 10px !important;
-      margin-top: 0px !important;
-  }
+}
 
-p{
-    font-size: 16px ;
+@font-face {
+    font-family: 'geomanistlight';
+    src: url('../fonts/geomanist-light-webfont.eot');
+    src: url('../fonts/geomanist-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/geomanist-light-webfont.woff2') format('woff2'), url('../fonts/geomanist-light-webfont.woff') format('woff'), url('../fonts/geomanist-light-webfont.ttf') format('truetype'), url('../fonts/geomanist-light-webfont.svg#geomanistlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.adhoc-coming-soon h1 {
+    font-family: 'geomanistbold' !important;
+    font-size: 35px !important;
+    margin-bottom: 10px !important;
+    margin-top: 0px !important;
+}
+
+.adhoc-coming-soon p {
+    font-size: 16px;
     line-height: 22px !important;
     font-family: var(--parrafos) !important;
 }
 
-main{
+.adhoc-coming-soon main {
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -57,19 +49,19 @@ main{
     position: relative;
 }
 
-.maintenance{
+.adhoc-coming-soon .maintenance {
     background-size: cover !important;
     background-position: top center;
     background-color: var(--blanco);
 }
 
-.grid-adhoc{
+.adhoc-coming-soon .grid-adhoc {
     display: grid;
     margin: auto;
     width: 500px
 }
 
-.logo{
+.adhoc-coming-soon .logo {
     position: absolute;
     width: fit-content;
     margin: auto;
@@ -78,26 +70,26 @@ main{
     top: 30px;
 }
 
-.logo img{
+.adhoc-coming-soon .logo img {
     width: 145px;
 }
 
-.adhoc-contenido{
-    background: rgba( 255, 255, 255, 0.75 );
-    backdrop-filter: blur( 15px );
-    -webkit-backdrop-filter: blur( 15px );
-    border-radius: 10px;    
+.adhoc-coming-soon .adhoc-contenido {
+    background: rgba( 255, 255, 255, 0.75);
+    backdrop-filter: blur( 15px);
+    -webkit-backdrop-filter: blur( 15px);
+    border-radius: 10px;
     padding: 40px !important;
     position: relative;
     top: -80px !important;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.maintenance .adhoc-contenido{
+.adhoc-coming-soon .maintenance .adhoc-contenido {
     padding-bottom: 80px !important;
 }
 
-.adhoc-figura a{
+.adhoc-coming-soon .adhoc-figura a {
     background-color: var(--azul) !important;
     color: var(--blanco);
     padding: 3px;
@@ -109,13 +101,12 @@ main{
     font-weight: 600;
 }
 
-.adhoc-figura a:hover{
+.adhoc-coming-soon .adhoc-figura a:hover {
     color: var(--azul) !important;
     background-color: var(--blanco) !important;
-
 }
 
-.texto-intro{
+.adhoc-coming-soon .texto-intro {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,39 +115,37 @@ main{
     width: 100%;
 }
 
-.maintenance .adhoc-contenido{
+.adhoc-coming-soon .maintenance .adhoc-contenido {
     top: 0px !important;
 }
-@media only screen and (max-width: 767px){
- 
-    .grid-adhoc{
+
+@media only screen and (max-width: 767px) {
+    .adhoc-coming-soon .grid-adhoc {
         width: 300px !important;
     }
-    .adhoc-contenido {
+    .adhoc-coming-soon .adhoc-contenido {
         background: rgba(255, 255, 255, 0.75);
         backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
         border-radius: 10px;
         padding: 40px !important;
     }
-
-    h1{
+    .adhoc-coming-soon h1 {
         font-size: 30px !important;
     }
 }
 
-@media only screen and (max-width: 400px){
-
-    lord-icon{
+@media only screen and (max-width: 400px) {
+    .adhoc-coming-soon lord-icon {
         width: 100px !important;
     }
-    h1{
+    .adhoc-coming-soon h1 {
         font-size: 25px !important;
     }
-    .grid-adhoc{
+    .adhoc-coming-soon .grid-adhoc {
         width: 90% !important;
     }
-    .adhoc-contenido {
+    .adhoc-coming-soon .adhoc-contenido {
         background: rgba(255, 255, 255, 0.75);
         backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
